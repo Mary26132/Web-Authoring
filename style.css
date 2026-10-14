@@ -1,0 +1,134 @@
+/*general page styling*/
+body {
+ margin: 0;
+ font-family: Arial, sans-serif;
+ background-color: #f8caca; /* Light red */
+ color: #000000;
+ text-align: center;
+}
+/* Header */
+header {
+ padding:20px;
+}
+.inline-flex{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.inline-flex div{
+    margin-left: 5em;
+}
+.inline-flex div ul{
+    list-style-type: number;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.inline-flex div ol{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.inline-flex div p{
+    list-style-type: number;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.logo{
+    margin-left: 45%;
+}
+ /*logo image*/
+ .logo img {
+ width: 100%;
+ max-width: 100px;
+ height: 155px;
+ padding: 15px;
+ object-fit: cover;
+ margin: 0px;
+ display: block;
+}
+h1 {
+ color: #cc0a0a;
+ font-size: 28px;
+ margin: 10px 0;
+ text-align: center;
+}
+.school-image-two {
+    align-items: center;
+ width: 100%;
+ height: auto;
+ margin: 25px auto;
+ padding: 15px;
+ display: block;
+}
+/* Navigation bar */
+nav {
+ background-color: #ffffff;
+ padding: 15px;
+}
+nav a {
+ color: #000000;
+ text-decoration: none;
+ font-weight: bold;
+ margin: 0 10px;
+ display: inline-block;
+}
+nav a:hover {
+ color: #cc0a0a;
+ text-decoration: underline;
+}
+/* Hero section */
+.hero {
+ padding: 50px 20px;
+}
+.hero-content {
+ max-width: 800px;
+ margin: auto;
+} .hero h2 {
+ color: #000000;
+ font-size: 30px;
+}
+.hero p {
+ color: #000000;
+ font-size: 18px;
+}
+/* Button */
+.button {
+ display: inline-block;
+ background-color: #cc0a0a;
+ color: #ffffff;
+ padding: 12px 25px;
+ text-decoration: none;
+ border-radius: 5px;
+ font-weight: bold;
+}
+.button:hover {
+ background-color: #990000;
+}
+/* Information section */
+.information {
+ padding: 20px;
+}
+.information h3 {
+ color: #000000;
+}
+.information p {
+ color: #000000;
+}
+/*school image*/
+.school_image img {
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 25px auto;
+    padding: 15px;
+    display: block;
+}
+/* Footer */
+footer {
+ background-color: #8f8e8e;
+ color: #ffffff;
+ padding: 15px;
+ margin-top: 20px;
+}
